@@ -1,5 +1,5 @@
 import React from "react";
-import Flash from "../../lib/Flash";
+import Flash from "../../utils/Flash";
 
 class Messages extends React.Component {
 	constructor() {

@@ -14,8 +14,7 @@ class Auth {
   }
 
 
-  // custom JSON web tokens!
-
+  // custom JSON web tokens
   static getPayload() {
     const token = this.getToken()
     if (!token) return false

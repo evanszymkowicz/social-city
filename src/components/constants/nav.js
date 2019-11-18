@@ -54,7 +54,7 @@ class Navigation extends React.Component {
                  Events
 								</Link>
 								<hr className="Navigation-divider" />
-								<Link to="/clubs" className="Navigation-item has-text-black">
+								<Link to="/teams" className="Navigation-item has-text-black">
                  Clubs
 								</Link>
 							</div>
@@ -72,7 +72,7 @@ class Navigation extends React.Component {
                      Events
                 		</Link>
                 		<hr className="Navigation-divider" />
-                		<Link to="/clubs/new" className="Navigation-item">
+                		<Link to="/teams/new" className="Navigation-item">
                      Clubs
                 		</Link>
                 	</div>

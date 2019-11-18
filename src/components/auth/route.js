@@ -6,7 +6,7 @@ import Flash from "../../utils/Flash";
 const SecureRoute = ({ component: Component, ...otherProps }) => {
 	if(Auth.isAuthenticated()) return <Route {...otherProps} component={Component} />;
 
-	Flash.setMessage("danger", "You are not logged in");
+	Flash.setMessage("Sorry", "You are not logged in");
 	return <Redirect to="/login" />;
 };
 
